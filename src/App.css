@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  display: flex;
+background-color: #1e2128;
+}
+
+.bigBorder {
+  width: 500px;
+  height: 350px;
+  margin: 300px auto;
+  border-width: 10px;
+  border-radius: 5%;
+  border-color: #271e4a;
+  background: #2d7575; /* Цвет фона */
+  padding: 10px;
+  border-style: solid;
+}
+
+
+.count {
+  font-size: 100px;
+  color: #280f09;
+  margin: 30px;
+  border-style: solid;
+  height: 100px;
+  padding: 10px;
+}
+
+.countred {
+  font-size: 100px;
+  color: #e03838;
+  margin: 30px;
+  border-style: solid;
+  height: 100px;
+  padding: 10px;
+}
+
+.countEnter {
+  font-size: 20px;
+  color: darkslateblue;
+  margin: 30px;
+  border-style: solid;
+  height: 100px;
+  padding: 10px;
+}
+
+.countIncorrect {
+  font-size: 20px;
+  color: #e03838;
+  margin: 30px;
+  border-style: solid;
+  height: 100px;
+  padding: 10px;
+  border-color: red;
+}
+
+.inc {
+width: 100px;
+  height: 50px;
+  background-color: royalblue;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.reset {
+  width: 100px;
+  height: 50px;
+  background-color: darkviolet;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+
+.bigBorderSet {
+  width: 500px;
+  height: 350px;
+  margin: 300px auto;
+  border-width: 10px;
+  border-radius: 5%;
+  border-color: #271e4a;
+  background: #2d7575; /* Цвет фона */
+  padding: 10px;
+  border-style: solid;
+}
+
+.butonset {
+  width: 100px;
+  height: 50px;
+  background-color: royalblue;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.toNumber, .fromNumber {
+  width: 100px;
+  height: 25px;
+  margin: 10px 60px 0 40px;
+  border-color: black;
+  text-align: center;
+  background: #2d7575;
+}
+
+.toNumber-red, .fromNumber-red {
+  width: 100px;
+  height: 25px;
+  margin: 10px 60px 0 40px;
+  border-color: #790202;
+  background-color: #ff2020;
+  text-align: center;
+}
+
+
+.values {
+  margin: 30px;
+  font-size: 20px;
+  padding: 10px;
+  border-style: solid;
+  height: 100px;
+  text-align: end;
+}
